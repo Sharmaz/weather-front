@@ -1,7 +1,7 @@
 function Card({ weatherData }) {
   return (
     <div className="bg-slate-800 rounded-lg p-4 shadow-md max-w-[320px]">
-      <h1 className="text-4xl font-bold text-orange-500">{`Weater in ${weatherData.city.name}`}</h1>
+      <h1 className="text-4xl font-bold text-orange-500">{`Weather in ${weatherData.city.name}`}</h1>
       <h2 className="text-slate-400 mt-4 text-2xl font-bold">{`${weatherData.list[0].main.temp} °C`}</h2>
       <div className="flex items-center">
         <h2 className="text-slate-400">
