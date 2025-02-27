@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     path: 'places/:city',
     element: <WeatherDetail />,
   },
-]);
+], { basename: 'weather-front' });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
